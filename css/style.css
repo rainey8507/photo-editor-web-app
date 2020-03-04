@@ -1,12 +1,13 @@
 body {
     margin: 0 auto;
     padding: 0;
-    width: 1024px;
+    max-width: 1024px;
+    width: 100%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    color: palevioletred;
+    font-size: 16px;
+    
 }  
-.wrapper h1 {font-family: 'Sriracha', cursive;}
+.wrapper h1 {font-family: 'Sriracha', cursive; font-size: 30px;}
 #upload {
     text-align: center;
     background-color: lightblue;
@@ -21,7 +22,7 @@ input {
     margin: 2em 0;
     border: 1px solid lightblue;
     border-radius: 10px;
-
+    padding: 10px;
 }
 button {
     background-color: lightblue;
